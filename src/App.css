@@ -1,0 +1,96 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F5ECD5;
+}
+
+/* Form Container */
+div {
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFFAEC;
+  border-radius: 20px;
+  /* box-shadow: 9px 4px 8px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+h2 {
+  text-align: center;
+  color: #3D3D3D;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+/* Input Fields */
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+/* Focus Effect for Input Fields */
+input[type="number"]:focus {
+  outline: none;
+  border-color: #578E7E;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px #578E7E;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #578E7E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect for Button */
+button[type="submit"]:hover {
+  background-color: #59d4b1;
+}
+
+/* Form Spacing */
+form {
+  margin-bottom: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  div {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  button[type="submit"] {
+    font-size: 0.9rem;
+  }
+}
+
+
+.captcha{
+  background-color: #FFFAEC;
+}
